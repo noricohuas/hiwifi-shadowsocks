@@ -7,11 +7,14 @@
 ```bash
 ssh 路由器
 cd /tmp
-wget http://ur.ikcd.net/HC5861-sysupgrade-20160901-0953a61e.bin
-sysupgrade HC5861-sysupgrade-20160901-0953a61e.bin
+wget https://raw.githubusercontent.com/noricohuas/hiwifi-shadowsocks/master/rom/1.3.5.18462s/HC5661A.bin
+sysupgrade HC5661A.bin
 ```
 
-更新后的shell命令
+hiwifi 1.2.5.15805s
 ```bash
-cd /tmp && curl -k -o shadow.sh https://raw.githubusercontent.com/cllu/hiwifi-ss/hiwifi-v1.2.5/shadow.sh && sh shadow.sh && rm shadow.sh
-cd /tmp
+cd /tmp && curl -k -o shadow.sh https://raw.githubusercontent.com/noricohuas/hiwifi-shadowsocks/master/shell/hiwifi-v1.2.5/shadow.sh && sh shadow.sh 12515805s && rm shadow.sh
+```
+
+特别感谢
+[qiwihui/hiwifi-ss](https://github.com/qiwihui/hiwifi-ss/blob/master/README.md)
