@@ -23,7 +23,7 @@ echo ''
 sleep 3
 echo 'Downloading files... 下载插件ing'
 echo ''
-curl -k https://raw.githubusercontent.com/cllu/hiwifi-ss/hiwifi-v1.2.5/ss.tar.gz -o ss.tar.gz
+curl -k https://github.com/noricohuas/hiwifi-shadowsocks/blob/master/shell/hiwifi-v1.2.5/ss.tar.gz -o ss.tar.gz
 echo 'Done! 下载完成'
 echo ''
 sleep 3
